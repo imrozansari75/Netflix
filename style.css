@@ -260,9 +260,10 @@ select {
     background-color: #414141;
 }
 
-.faqbox span {
+.faqbox :first-child {
     font-family: 'Martel Sans', sans-serif;
     font-size: 20px;
+    padding-top: 6px;   
 }
 
 .faqbox span i {
